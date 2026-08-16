@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sun Son Solar - Booking & Scheduling</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="brand_logo">
+<span class="brand-title">SUN SON SOLAR</span>
+</div>
+<nav class="nav-bar">
+<a href="login.html">Login</a>
+<a href="register.html">Register</a>
+<a href="Booking-Appointment.html" class="active">Booking</a>
+<a href="attendance.html">Attendance</a>
+<a href="products.html">Products</a>
+</nav>
+</header>
+<main class="container">
+<h2>Appointments</h2>
+<p class="subtitle">System Overview & Scheduling</p>
+<div class="stat_grid">
+<div class="stat_card"><span>All Bookings</span><strong>135</strong></div>
+<div class="stat_card"><span>Today</span><strong>30</strong></div>
+<div class="stat_card"><span>Reschedule</span><strong>5</strong></div>
+<div class="stat_card"><span>Canceled</span><strong>3</strong></div>
+</div>
+<div class="form_group">
+<label>Select Appointment Date</label>
+<input type="date" value="2026-01-15">
+</div>
+
+<select class="item_title_select">
+<option value="Solar Panel Inspection" selected>Solar Panel Inspection</option>
+<option value="Inverter Maintenance">Inverter Maintenance</option>
+<option value="Battery Installation">Battery Installation</option>
+<option value="Rooftop Site Survey">Rooftop Site Survey</option>
+</select>
+
+<label class="section_label">Scheduled Today</label>
+<div class="item_list">
+<div class="list_item">
+<div class="product_info">
+<div class="product_icon"></div>
+<div>
+<strong class="item_title">Solar Panel Inspection</strong>
+<span class="item_sub">Kamila • 09:00 AM</span>
+</div>
+</div>
+<span class="status Confirmed">Confirmed</span>
+</div>
+<div class="list_item">
+<div class="product_info">
+<div class="product_icon"></div>
+<div>
+<strong class="item_title">Inverter Maintenance</strong>
+<span class="item_sub">Yanna • 11:30 AM</span>
+</div>
+</div>
+<span class="status Pending">Pending</span>
+</div>
+<div class="list_item">
+<div class="product_info">
+<div class="product_icon"></div>
+<div>
+<strong class="item_title">Battery Installation</strong>
+<span class="item_sub">Dheng • 02:15 PM</span>
+</div>
+</div>
+<span class="status Confirmed">Confirmed</span>
+</div>
+
+<div class="list_item">
+<div class="product_info">
+<div class="product_icon"></div>
+
+<div>
+<strong class="item_title">Rooftop Site Survey</strong>
+<span class="item_sub">Biya • 04:00 PM</span>
+</div>
+</div>
+<span class="status Canceled">Canceled</span>
+</div>
+</div>
+<button class="btn">Book Appointment</button>
+</main>
+</body>
+</html>
+ 
